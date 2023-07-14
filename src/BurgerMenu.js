@@ -4,11 +4,11 @@ import styled from "styled-components";
 import Navbar from "./Navbar";
 
 const Div = styled.div`
-  width: 2rem;
+  width: 1.5rem;
   height: 2rem;
   position: fixed;
-  top: 40px;
-  right: 30px;
+  top: 20px;
+  right: 20px;
   z-index: 20;
   display: none;
   cursor: pointer;

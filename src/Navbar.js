@@ -24,7 +24,8 @@ const Ul = styled.ul`
     transition: all 0.3s linear;
     transform: ${(props) => (props.open ? "translateX(0)" : "translateX(100%)")};
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 20px;
     height: 100vh;
     width: 50%;
   }
